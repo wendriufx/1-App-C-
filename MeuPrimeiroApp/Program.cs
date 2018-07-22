@@ -15,7 +15,7 @@ namespace MeuPrimeiroApp
         {
             var valorInformado = Console.ReadLine();
 
-
+            var teste = 0;
             double valor = Convert.ToDouble(valorInformado);
             double fgts = 8.0 / 100.0;
             double valor_descontado = fgts * valor;
